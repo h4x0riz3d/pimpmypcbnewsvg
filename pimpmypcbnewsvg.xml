@@ -1,0 +1,120 @@
+<pimpmypcbnewsvg_config>
+    <layers>
+        <layer defclr="#f0f0f0" name="F.Cu"      gw="__Fdrill"/>
+        <layer defclr="#f1f1f1" name="B.Cu"      gw="__Bdrill"/>
+        <layer defclr="#000001" name="F.Adhes"              />
+        <layer defclr="#000002" name="B.Adhes"              />
+        <layer defclr="#d0d0d0" name="F.Paste"              />
+        <layer defclr="#d1d1d1" name="B.Paste"              />
+        <layer defclr="#CFCFCF" name="F.SilkS"              />
+        <layer defclr="#CECECE" name="B.SilkS"              />
+        <layer defclr="#E0E0E0" name="F.Mask"               />
+        <layer defclr="#E1E1E1" name="B.Mask"               />
+        <layer defclr="#11A011" name="Dwgs.User"            />
+        <layer defclr="#1111A0" name="Cmts.User"            />
+        <layer defclr="#226622" name="Eco1.User"            />
+        <layer defclr="#662222" name="Eco2.User"            />
+        <layer defclr="#010101" name="Edge.Cuts"            />
+        <layer defclr="#224444" name="Margin"               />
+        <layer defclr="#666666" name="F.CrtYd"              />
+        <layer defclr="#676767" name="B.CrtYd"              />
+        <layer defclr="#020202" name="F.Fab"                />
+        <layer defclr="#030303" name="B.Fab"                />
+    </layers>
+    <output_file suffix="merged.svg">
+        <layer color="default" name="B.Cu"/>
+        <layer color="default" name="B.Adhes"/>
+        <layer color="default" name="B.Paste"/>
+        <layer color="default" name="B.SilkS"/>
+        <layer color="default" name="B.Mask"/>
+        <layer color="default" name="B.CrtYd"/>
+        <layer color="default" name="B.Fab"/>
+        <layer color="default" name="F.Cu"/>
+        <layer color="default" name="F.Adhes"/>
+        <layer color="default" name="F.Paste"/>
+        <layer color="default" name="F.SilkS"/>
+        <layer color="default" name="F.Mask"/>
+        <layer color="default" name="F.CrtYd"/>
+        <layer color="default" name="F.Fab"/>
+        <layer color="default" name="Dwgs.User"/>
+        <layer color="default" name="Cmts.User"/>
+        <layer color="default" name="Eco1.User"/>
+        <layer color="default" name="Eco2.User"/>
+        <layer color="default" name="Edge.Cuts"/>
+        <layer color="default" name="Margin"/>
+    </output_file>
+    <output_file suffix="mrgd_F_fab.svg">
+        <layer color="#dff2fc" name="F.Mask"/>
+        <layer color="default" name="F.Cu"/>
+        <layer color="#cfcfcf" name="__Fdrill"/>
+        <layer color="default" name="F.Adhes"/>
+        <layer color="#cbb7b4" name="F.Paste"/>
+        <layer color="#e1c3b2" name="F.SilkS"/>
+        <layer color="#d4ce8b" name="F.CrtYd"/>
+        <layer color="default" name="Dwgs.User"/>
+        <layer color="default" name="Cmts.User"/>
+        <layer color="default" name="Eco1.User"/>
+        <layer color="default" name="Eco2.User"/>
+        <layer color="#D0D0D0" name="Edge.Cuts"/>
+        <layer color="#D0A0D0" name="Margin"/>
+        <layer color="#10004c" name="F.Fab"/>
+    </output_file>
+    <output_file suffix="mrgd_B_fab.svg">
+        <layer color="#fce9df" name="B.Mask"/>
+        <layer color="default" name="B.Cu"/>
+        <layer color="#cfcfcf" name="__Bdrill"/>
+        <layer color="default" name="B.Adhes"/>
+        <layer color="#b4c8cb" name="B.Paste"/>
+        <layer color="#b2d0e1" name="B.SilkS"/>
+        <layer color="#8b91d4" name="B.CrtYd"/>
+        <layer color="default" name="Dwgs.User"/>
+        <layer color="default" name="Cmts.User"/>
+        <layer color="default" name="Eco1.User"/>
+        <layer color="default" name="Eco2.User"/>
+        <layer color="#D0D0D0" name="Edge.Cuts"/>
+        <layer color="#D0A0D0" name="Margin"/>
+        <layer color="#3c4c00" name="B.Fab"/>
+    </output_file>
+    <output_file suffix="mrgd_F_ref.svg">
+        <layer color="default" name="F.Cu"/>
+        <layer color="default" name="F.Mask"/>
+        <layer color="default" name="F.Adhes"/>
+        <layer color="#e5e5e5" name="F.Paste"/>
+        <layer color="default" name="F.CrtYd"/>
+        <layer color="#dfcdca" name="F.Fab"/>
+        <layer color="default" name="Dwgs.User"/>
+        <layer color="default" name="Cmts.User"/>
+        <layer color="default" name="Eco1.User"/>
+        <layer color="default" name="Eco2.User"/>
+        <layer color="#D0D0D0" name="Edge.Cuts"/>
+        <layer color="#D0A0D0" name="Margin"/>
+        <layer color="#4e7a00" name="F.SilkS"/>
+        <layer color="#cfcfcf" name="__Fdrill"/>
+    </output_file>
+    <output_file suffix="mrgd_B_ref.svg">
+        <layer color="default" name="B.Cu"/>
+        <layer color="default" name="B.Mask"/>
+        <layer color="default" name="B.Adhes"/>
+        <layer color="#e5e5e5" name="B.Paste"/>
+        <layer color="default" name="B.CrtYd"/>
+        <layer color="#cadcdf" name="B.Fab"/>
+        <layer color="default" name="Dwgs.User"/>
+        <layer color="default" name="Cmts.User"/>
+        <layer color="default" name="Eco1.User"/>
+        <layer color="default" name="Eco2.User"/>
+        <layer color="#D0D0D0" name="Edge.Cuts"/>
+        <layer color="#D0A0D0" name="Margin"/>
+        <layer color="#2c007a" name="B.SilkS"/>
+        <layer color="#cfcfcf" name="__Bdrill"/>
+    </output_file>
+    <output_file suffix="mrgd_F_clean.svg">
+        <layer color="#32452c" name="F.Mask"/>
+	    <layer color="#128f58" name="F.Cu"/>
+        <layer color="default" name="F.Adhes"/>
+        <layer color="#82909c" name="F.Paste"/>
+        <layer color="#D0D0D0" name="Edge.Cuts"/>
+        <layer color="#D0A0D0" name="Margin"/>
+        <layer color="#c7c9ba" name="F.SilkS"/>
+        <layer color="#000000" name="__Fdrill"/>
+    </output_file>
+</pimpmypcbnewsvg_config>
