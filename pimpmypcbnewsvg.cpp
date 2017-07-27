@@ -4,7 +4,11 @@
 #include <vector>
 #include <unordered_map>
 
+#ifdef __CMAKE__
+#include <tinyxml2.h>
+#else
 #include "tinyxml2/tinyxml2.h"
+#endif
 
 using namespace tinyxml2;
 using std::cout;
